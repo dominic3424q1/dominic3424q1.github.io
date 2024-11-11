@@ -4,7 +4,8 @@ body {
     /* фонт фамили микрома это шрифт который добавили с сайта а слово
      сериф это добавили запасной универсальный шрифт если основной не прогрузится */
     font-family: Michroma, serif;
-    background: linear-gradient(90deg, #02008e 1%, #000000 89%);
+    background: linear-gradient(0deg, #20d9fe 0%, #ffffff 100%);
+
 }
 
 p {
