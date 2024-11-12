@@ -4,20 +4,22 @@ body {
     /* фонт фамили микрома это шрифт который добавили с сайта а слово
      сериф это добавили запасной универсальный шрифт если основной не прогрузится */
     font-family: Michroma, serif;
-    background: linear-gradient(0deg, #20d9fe 0%, #ffffff 100%);
+    /* ниже это картинка фона в скобки вставвляес код изображения с браузера */
+    background: url(https://images.wallpaperscraft.ru/image/single/fon_gradient_fioletovyj_1329269_2560x1600.jpg);
 
 }
 
 p {
-    color: aquamarine;
+    color: rgb(0, 0, 0);
 }
 
+
 .nav-link {
-    color: aquamarine;
+    color: rgb(0, 0, 0);
 }
 
 .navbar-nav .nav-link.active {
-    color: rgb(167, 167, 167);
+    color: rgb(255, 255, 255);
 }
 
 .navbar-brand img {
@@ -25,29 +27,28 @@ p {
 }
 
 .navbar-toggler {
-    background-color: rgb(167, 167, 167);;
+    background-color: black;
 }
 /* все что выше это верхняя
  навигационная паенль ссылки кнопки итд */
 
  .sidebar {
-    color: aquamarine;
-    background: linear-gradient(270deg, #02008e 1%, #000000 89%);
+    color: rgb(0, 0, 0);
+    background: linear-gradient(270deg, #f8e0053f 1%, #d0d0d0 89%);
 }
 
 .card {
-    background: linear-gradient(270deg, #02008e 1%, #000000 89%);
-    color: aquamarine;
+    background: linear-gradient(270deg, #f8e0053f 1%, #d0d0d0 89%);
 }
 
 .card a {
     text-decoration: none;
-    color: aquamarine;
+    color: rgb(0, 0, 0);
 }
 
 .slide-text,
 .footer-text {
-    color: aquamarine;
+    color: rgb(225, 17, 17);
     /* маржин авто авто это и по икс и по игрику задать
      автоматическое центральное положение */
     margin: auto auto;
@@ -55,7 +56,7 @@ p {
 
 footer,
 .btn-outline-primary {
-    background: linear-gradient(270deg, #02008e 1%, #000000 89%);
+    
 }
 
 .media-links {
@@ -103,3 +104,14 @@ footer,
     }
 }
 
+.play {
+    margin-left: -3.5%;
+}
+
+.btn-primary {
+    background: linear-gradient(270deg, #f8e0053f 1%, #d0d0d0 89%);
+}
+
+.informacia-games {
+    background-color: rgb(238, 234, 139);
+}
