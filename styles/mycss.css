@@ -29,10 +29,11 @@ p {
 .navbar-toggler {
     background-color: black;
 }
+
 /* все что выше это верхняя
  навигационная паенль ссылки кнопки итд */
 
- .sidebar {
+.sidebar {
     color: rgb(0, 0, 0);
     background: linear-gradient(270deg, #f8e0053f 1%, #d0d0d0 89%);
 }
@@ -55,9 +56,7 @@ p {
 }
 
 footer,
-.btn-outline-primary {
-    
-}
+.btn-outline-primary {}
 
 .media-links {
     display: flex;
@@ -70,31 +69,32 @@ footer,
 }
 
 @keyframes call {
-	0%,
-	100% {
-		transform: translateX(0%);
-		transform-origin: 50% 50%;
-	}
 
-	15% {
-		transform: translateX(-30px) rotate(-6deg);
-	}
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
 
-	30% {
-		transform: translateX(15px) rotate(6deg);
-	}
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
 
-	45% {
-		transform: translateX(-15px) rotate(-3.6deg);
-	}
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
 
-	60% {
-		transform: translateX(9px) rotate(2.4deg);
-	}
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
 
-	75% {
-		transform: translateX(-6px) rotate(-1.2deg);
-	}
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
 }
 
 
